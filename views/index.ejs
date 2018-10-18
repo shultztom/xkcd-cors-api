@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h4>API Information</h4>
+    <p>This is an API that uses the original xkcd API, but enables CORS and adds some error handling and additional data</p>
+    <h4>Routes</h4>
+    <p><a href="/api">/api</a></p>
+    <ul><li>Gets the most recent comic</li></ul>
+    <p>/api/:id</p>
+    <ul><li>Gets the comic with the id provided</li><li><a href="/api/0">If 0 is submitted</a>, the most recent comic will be returned</li></ul>
+  </body>
+</html>
