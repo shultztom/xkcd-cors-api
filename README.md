@@ -1,4 +1,4 @@
-#xkcd CORS API
+##xkcd CORS API
 
 Demo of this app can be seen [here](https://xkcd-cors-api.herokuapp.com/)
 
