@@ -5,7 +5,7 @@ FROM node:12.13.0-alpine
 WORKDIR /app
 
 # Install app dependencies
-COPY package.json package-lock ./
+COPY package.json package-lock.json ./
 
 RUN npm install --production
 # If you are building your code for production
